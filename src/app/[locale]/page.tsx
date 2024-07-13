@@ -1,4 +1,5 @@
 'use client'
+import MainLayout from "@/components/main-layout";
 import MainNav from "@/components/main-nav";
 import { Button } from "@/components/ui/button";
 import { usePathname, useRouter } from "@/navigation";
@@ -26,6 +27,7 @@ export default function Home() {
     <div className="transition">
       <div className="relative flex min-h-screen flex-col bg-background">
         <MainNav />
+        <MainLayout />
       </div>
     </div>
   );

@@ -52,6 +52,11 @@ const config = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        vmp: {
+          DEFAULT: "#EE0033",
+          redP01: "#EE0033",
+          redCB0: '#CB003D'
+        }
       },
       borderRadius: {
         lg: "var(--radius)",
