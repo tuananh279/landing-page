@@ -30,7 +30,8 @@ const MainNav = () => {
                         </Button>
                     </div>
                     <nav className='flex items-center'>
-                        <Button variant={'vmpPrimary'} className=''>Tài khoản của tôi</Button>
+                        <Button variant={'vmpPrimary'} className='hidden lg:inline-flex'>Tài khoản của tôi</Button>
+                        <Button size={'icon'} className='lg:hidden'>TA</Button>
                     </nav>
                 </div>
             </div>

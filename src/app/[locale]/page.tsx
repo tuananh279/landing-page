@@ -1,7 +1,7 @@
 'use client'
+import MainFooter from "@/components/main-footer";
 import MainLayout from "@/components/main-layout";
 import MainNav from "@/components/main-nav";
-import { Button } from "@/components/ui/button";
 import { usePathname, useRouter } from "@/navigation";
 import { useTranslations } from "next-intl";
 import { useParams } from "next/navigation";
@@ -28,6 +28,7 @@ export default function Home() {
       <div className="relative flex min-h-screen flex-col bg-background">
         <MainNav />
         <MainLayout />
+        <MainFooter />
       </div>
     </div>
   );

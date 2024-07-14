@@ -28,20 +28,20 @@ const MainNavigation = () => {
             <NavigationMenuList>
                 <NavigationMenuItem>
                     <Link href="/docs" legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                        <NavigationMenuLink className={`${navigationMenuTriggerStyle()} bg-transparent hover:text-vmp-redCB0`}>
                             Giới thiệu
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <Link href="/docs" legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                        <NavigationMenuLink className={`${navigationMenuTriggerStyle()} bg-transparent hover:text-vmp-redCB0`}>
                             Gói dịch vụ
                         </NavigationMenuLink>
                     </Link>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
-                    <NavigationMenuTrigger>Giải pháp</NavigationMenuTrigger>
+                    <NavigationMenuTrigger className='bg-transparent hover:text-vmp-redCB0'>Giải pháp</NavigationMenuTrigger>
                     <NavigationMenuContent className='shadow-[1px_2px_4px_rgba(0,0,0,0.25)]'>
                         <ul className="grid w-40 lg:w-52">
                             {components.map((component) => (
@@ -58,7 +58,7 @@ const MainNavigation = () => {
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                     <Link href="/docs" legacyBehavior passHref>
-                        <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+                        <NavigationMenuLink className={`${navigationMenuTriggerStyle()} bg-transparent hover:text-vmp-redCB0`}>
                             Tài liệu
                         </NavigationMenuLink>
                     </Link>

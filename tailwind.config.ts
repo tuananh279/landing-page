@@ -55,7 +55,10 @@ const config = {
         vmp: {
           DEFAULT: "#EE0033",
           redP01: "#EE0033",
-          redCB0: '#CB003D'
+          redCB0: '#CB003D',
+          gray01: '#44494D',
+          AAAAAA: "#AAAAAA",
+          black03: "#262626"
         }
       },
       borderRadius: {
@@ -77,6 +80,13 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      fontSize: {
+        "clamp-2xl": "clamp(2rem, 5vw, 3.25rem)" ,
+        "clamp-xl": "clamp(2rem, 5vw, 3rem)" 
+      },
+      dropShadow: {
+        vmp: "0 1px 1px rgba(203, 0, 61, 1)"
+      }
     },
   },
   plugins: [require("tailwindcss-animate")],

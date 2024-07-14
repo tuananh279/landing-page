@@ -67,3 +67,11 @@
       @apply bg-background text-foreground;
     }
   }
+
+#advance-section {
+  background-image: url("../../../public/bg-feature.png");
+}
+
+#download-section {
+  background-image: url("../../../public/bg-download.png");
+}
